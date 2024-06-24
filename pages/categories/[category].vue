@@ -42,7 +42,7 @@ useHead({
       content: `You will find all the ${category.value} related post here`,
     },
   ],
-  titleTemplate: 'Riyad\'s Blog - %s',
+  titleTemplate: 'Dllpl Блог',
 })
 
 // Generate OG Image
@@ -57,7 +57,7 @@ defineOgImage({
 </script>
 
 <template>
-  <main class="container max-w-5xl mx-auto text-zinc-600 px-4">
+  <main class="container  mx-auto text-zinc-600 px-4">
     <CategoryTopic />
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
       <BlogCard

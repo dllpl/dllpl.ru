@@ -19,7 +19,7 @@ data.value?.forEach((blog) => {
 })
 
 useHead({
-  title: 'Categories',
+  title: 'Категории',
   meta: [
     {
       name: 'description',
@@ -27,7 +27,7 @@ useHead({
         'Below All the topics are listed on which either I have written a blog or will write a blog in near future.',
     },
   ],
-  titleTemplate: 'Riyad\'s Blog - %s',
+  titleTemplate: 'Dllpl Блог',
 })
 
 // Generate OG Image
@@ -42,7 +42,7 @@ defineOgImage({
 </script>
 
 <template>
-  <main class="container max-w-5xl mx-auto text-zinc-600">
+  <main class="container  mx-auto text-zinc-600">
     <CategoryHero />
     <div class="flex flex-wrap px-6 mt-12 gap-3">
       <CategoryCard

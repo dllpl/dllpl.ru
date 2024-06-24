@@ -21,15 +21,14 @@ const formattedData = computed(() => {
 })
 
 useHead({
-  title: 'Home',
+  title: 'Главная',
   meta: [
     {
       name: 'description',
-      content:
-        'Welcome To My Blog Site. Get Web Development, Javascript, Typescript, NodeJs, Vue, and Nuxt, Related Articles, Tips, Learning resources and more.',
+      content: 'Статьи на темы веб-разработки. Фронт на Nuxt, бэк на Laravel, CMS это WordPress. Личный блок Никиты Ив (dllpl)',
     },
   ],
-  titleTemplate: 'Riyad\'s Blog - %s',
+  titleTemplate: 'Dllpl Блог - %s',
 })
 </script>
 
@@ -38,7 +37,7 @@ useHead({
     <div class="flex flex-row items-center space-x-3 pt-5 pb-3">
       <Icon name="mdi:star-three-points-outline" size="2em" class="text-black dark:text-zinc-300  " />
       <h2 class="text-4xl font-semibold text-black dark:text-zinc-300   ">
-        Recent Post
+        Недавные статьи
       </h2>
     </div>
 

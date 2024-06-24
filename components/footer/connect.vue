@@ -5,17 +5,18 @@ import { footerData } from '~/data'
 <template>
   <div>
     <p class="text-black dark:text-zinc-300   text-base font-semibold">
-      Connect With Me
+      Связаться со мной
     </p>
     <p class="dark:text-zinc-300  ">
       {{ footerData.authorInterest }}
     </p>
 
     <a
-      href="mailto: alasadnurriyad4@gmail.com"
+      href="https://t.me/dllpl"
       class="block text-center w-full bg-sky-700 p-2 rounded-lg text-[#F1F2F4]  mt-3 text-sm"
+      target="_blank"
     >
-      Sent Mail
+      Telegram <Icon name="fa:telegram" size="1.3em" />
     </a>
   </div>
 </template>

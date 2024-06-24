@@ -1,41 +1,41 @@
 export const navbarData = {
-  homeTitle: 'Riyad\'s Blog',
+  homeTitle: 'Dllpl Блог',
 }
 
 export const footerData = {
-  author: 'Al Asad Nur Riyad',
-  aboutAuthor: 'Hi! I am Riyad, a Tech enthusiast, problem solver and software engineer. Currently working at Appscode Inc.',
-  authorInterest: 'I have a fair amount of knowledge of Javascript, Typescript, VueJs, and Nuxt. If you have an interesting idea, either open source or paid let\'s connect.',
-  aboutTheSite: 'This is a personal blog site built with Nuxt3, TailwindCSS, NuxtContent, Nuxt Icon. Currently it\'s deployed in Vercel.',
+  author: 'Никита Ив',
+  aboutAuthor: 'Веб-разработчик, фрилансер, предприимчивый фулл-стек.',
+  authorInterest: 'Фронт на Nuxt, бэк на Laravel. CMS WordPress. Всё просто.',
+  aboutTheSite: 'Здесь вы можете найти полезные статьи на темы веб-разработки.',
 }
 
 export const homePage = {
-  title: 'Welcome To My Blog Site',
-  description: 'Get Web Development, Javascript, Typescript, NodeJs, Vue, and Nuxt, Related Articles, Tips, Learning resources and more.',
+  title: 'Фронт на Nuxt, бэк на Laravel, CMS это WordPress',
+  description: 'Окунитесь в море полезного контента, который вы можете найти в этом блоге. Будьте в курсе новостей. Надеюсь, вы найдете тут что-то интересное для себя.',
 }
 
 export const blogsPage = {
-  title: 'All Blogs',
-  description: 'Here you will find all the blog posts I have written & published on this site.',
+  title: 'Все статьи',
+  description: 'Здесь вы найдете все сообщения в блоге, которые я написал и опубликовал на этом сайте.',
 }
 
 export const categoryPage = {
-  title: 'Categories',
-  description: 'Blow this category is generated from all the tags are mentioned in the different blog post',
+  title: 'Категории',
+  description: 'Эта категория создается на основе всех тегов, упомянутых в разных сообщениях блога.',
 }
 
 export const aboutPage = {
-  title: 'Al Asad Nur Riyad',
-  description: 'Software Engineer, Problem Solver, Web Enthusiast.',
-  aboutMe: 'Hello, fellow human! I\'m a software wizard who spends most of his day crafting code spells at @AppsCode in the Bytebuilders team. When I\'m not crafting code, you can find me summoning solutions to problems on online judges. Just don\'t ask me to cast any love spells, my magic only works on machines!',
+  title: 'Никита Ив (dllpl)',
+  description: 'Веб-разработчик, фрилансер, предприимчивый фулл-стек.',
+  aboutMe: 'Работаю fullstack-разработчиком (Laravel+Vue) в аккредитованной IT-компании "Свамисофт", тимлидер проектов. Веду свою IT-студию Webseed.ru. Создаю проекты с макета до релиза. Изнутри знаю, как устроены компании в финансовом секторе со своими скорингами, эквифаксами, телефонией, пересчетами, сложной бизнес-логикой и множеством микросервисов.\n',
 }
 
 export const seoData = {
-  description: 'Riyad, Software Engineer at AppsCode, with over 2.5+ years experience in software development.',
-  ogTitle: 'Riyad codes and helps others learn Javascript, Typescript, Vue, Nuxt, & Problem Solving',
-  twitterDescription: 'My blog website, where I play around with Nuxt, Vue, and more and showcase my blog, resources, etc',
+  description: 'Никита Ив, веб-разработчик, фрилансер, предприимчивый фулл-стек. Всё просто.',
+  ogTitle: 'Фронт на Nuxt, бэк на Laravel. CMS WordPress.',
+  twitterDescription: 'Никита Ив, веб-разработчик, фрилансер, предприимчивый фулл-стек. Всё просто.',
   image: 'https://res.cloudinary.com/dmecmyphj/image/upload/v1673548905/nuxt-blog/cover_ntgs6u.webp',
-  mySite: 'https://blog-nurriyad.vercel.app/',
+  mySite: 'https://dllpl.ru',
 }
 
 export const siteMetaData = [

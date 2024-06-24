@@ -1,27 +1,27 @@
 <script lang="ts" setup>
 useHead({
-  title: 'Home',
+  title: 'Главная',
   meta: [
     {
       name: 'description',
       content:
-        'Welcome To My Blog Site. Get Web Development, Javascript, Typescript, NodeJs, Vue, and Nuxt, Related Articles, Tips, Learning resources and more.',
+        'Статьи на темы веб-разработки. Фронт на Nuxt, бэк на Laravel, CMS это WordPress. Личный блок Никиты Ив (dllpl)',
     },
   ],
-  titleTemplate: 'Riyad\'s Blog - %s',
+  titleTemplate: 'Dllpl Блог - %s',
 })
 
 // Generate OG Image
 defineOgImageComponent('About', {
-  headline: 'Greetings 👋',
-  title: 'Riyad\'s Blog',
-  description: 'Dive into web development with me and learn Js, Ts, Vue, Nuxt, Docker, k8s',
+  headline: 'Добро пожаловать 👋',
+  title: 'Dllpl Блог',
+  description: 'Статьи на темы веб-разработки. Фронт на Nuxt, бэк на Laravel, CMS это WordPress. Личный блок Никиты Ив (dllpl)',
   link: '/riyad.jpg',
 })
 </script>
 
 <template>
-  <main class="container max-w-5xl mx-auto text-zinc-600">
+  <main class="container  mx-auto text-zinc-600">
     <MainHero />
     <MainRecent />
     <MainTrending />

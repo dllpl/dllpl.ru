@@ -4,9 +4,10 @@ export default defineNuxtConfig({
     head: {
       charset: 'utf-16',
       viewport: 'width=device-width,initial-scale=1',
-      title: 'Riyad\'s Blog',
-      titleTemplate: '%s - Riyad\'s Blog',
-      meta: [{ name: 'description', content: 'Riyad\'s awesome blog' }],
+      title: 'dllpl всё о веб-разработке',
+      titleTemplate: '%s - dllpl всё о веб-разработке',
+      meta: [{ name: 'description', content: 'dllpl всё о веб-разработке' }],
+      script: [{ src: 'https://telegram.org/js/telegram-web-app.js', defer: true }],
     },
     pageTransition: { name: 'page', mode: 'out-in' },
     layoutTransition: { name: 'layout', mode: 'out-in' },
@@ -16,11 +17,10 @@ export default defineNuxtConfig({
     strictNuxtContentPaths: true,
   },
   site: {
-    url: 'https://blog.nurriyad.xyz',
+    url: 'https://dllpl.ru',
     identity: {
       type: 'Person',
     },
-    twitter: '@qdnvubp',
   },
 
   typescript: {
@@ -55,6 +55,10 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@stefanobartoletti/nuxt-social-share',
   ],
+
+  devServer: {
+    host: '127.0.0.1',
+  },
 
   content: {
     highlight: {

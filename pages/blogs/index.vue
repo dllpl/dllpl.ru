@@ -58,14 +58,14 @@ function onNextPageClick() {
 }
 
 useHead({
-  title: 'Archive',
+  title: 'Архив',
   meta: [
     {
       name: 'description',
-      content: 'Here you will find all the blog posts I have written & published on this site.',
+      content: 'На этой странице вы найдете все сообщения в блоге, которые я написал и опубликовал.',
     },
   ],
-  titleTemplate: 'Riyad\'s Blog - %s',
+  titleTemplate: 'Dllpl Блог',
 })
 
 // Generate OG Image
@@ -73,14 +73,14 @@ const siteData = useSiteConfig()
 defineOgImage({
   props: {
     title: 'Archive',
-    description: 'Here you will find all the blog posts I have written & published on this site.',
+    description: 'Здесь вы найдете все сообщения в блоге, которые я написал и опубликовал на этом сайте.',
     siteName: siteData.url,
   },
 })
 </script>
 
 <template>
-  <main class="container max-w-5xl mx-auto text-zinc-600">
+  <main class="container  mx-auto text-zinc-600">
     <ArchiveHero />
 
     <div class="px-6">
