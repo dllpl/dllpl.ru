@@ -13,7 +13,7 @@
       Категории
     </NuxtLink>
     <NuxtLink to="/about" class="hover:underline">
-      Обо мне
+      Автор
     </NuxtLink>
   </div>
 </template>

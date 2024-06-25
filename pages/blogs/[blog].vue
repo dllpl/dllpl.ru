@@ -30,7 +30,7 @@ useHead({
       content: data.value.description,
     },
     // Test on: https://developers.facebook.com/tools/debug/ or https://socialsharepreview.com/
-    { property: 'og:site_name', content: 'Dllpl Блог' },
+    { property: 'og:site_name', content: 'Портал о современной веб-разработке dllpl.ru ' },
     { hid: 'og:type', property: 'og:type', content: 'website' },
     {
       property: 'og:url',

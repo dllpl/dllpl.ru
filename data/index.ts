@@ -1,5 +1,5 @@
 export const navbarData = {
-  homeTitle: 'Dllpl Блог',
+  homeTitle: 'dllpl.ru',
 }
 
 export const footerData = {
@@ -10,7 +10,7 @@ export const footerData = {
 }
 
 export const homePage = {
-  title: 'Фронт на Nuxt, бэк на Laravel, CMS это WordPress',
+  title: 'Полезные статьи по Nuxt 3, Laravel и WordPress. Плагины, библиотеки и многое другое на PHP, JS и Go',
   description: 'Окунитесь в море полезного контента, который вы можете найти в этом блоге. Будьте в курсе новостей. Надеюсь, вы найдете тут что-то интересное для себя.',
 }
 

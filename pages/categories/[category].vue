@@ -39,10 +39,10 @@ useHead({
   meta: [
     {
       name: 'description',
-      content: `You will find all the ${category.value} related post here`,
+      content: `Здесь вы найдете все публикации, связанные с ${category.value}`,
     },
   ],
-  titleTemplate: 'Dllpl Блог',
+  titleTemplate: '%s - dllpl.ru',
 })
 
 // Generate OG Image

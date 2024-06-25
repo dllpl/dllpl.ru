@@ -65,14 +65,14 @@ useHead({
       content: 'На этой странице вы найдете все сообщения в блоге, которые я написал и опубликовал.',
     },
   ],
-  titleTemplate: 'Dllpl Блог',
+  titleTemplate: '%s - dllpl.ru',
 })
 
 // Generate OG Image
 const siteData = useSiteConfig()
 defineOgImage({
   props: {
-    title: 'Archive',
+    title: 'Архив',
     description: 'Здесь вы найдете все сообщения в блоге, которые я написал и опубликовал на этом сайте.',
     siteName: siteData.url,
   },

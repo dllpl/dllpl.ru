@@ -30,7 +30,7 @@ function onClick(val: string) {
         </li>
         <li title="About Me">
           <NuxtLink to="/about" aria-label="About me">
-            Обо мне
+            Автор
           </NuxtLink>
         </li>
       </ul>

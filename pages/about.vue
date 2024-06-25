@@ -1,17 +1,28 @@
 <script setup lang="ts">
 import { aboutPage } from '~/data'
 
+useHead({
+  title: 'Автор',
+  meta: [
+    {
+      name: 'description',
+      content: 'Никита Ив, создатель и основатель dllpl.ru и webseed.ru. Личный блок Никиты Ив (dllpl).',
+    },
+  ],
+  titleTemplate: '%s - dllpl.ru',
+})
+
 defineOgImageComponent('About', {
   headline: 'Добро пожаловать 👋',
-  title: 'Dllpl Блог',
-  description: 'Статьи на темы веб-разработки. Фронт на Nuxt, бэк на Laravel, CMS это WordPress. Личный блок Никиты Ив (dllpl)',
+  title: 'Портал о современной веб-разработке dllpl.ru ',
+  description: 'Статьи на темы веб-разработки. Фронт на Nuxt, бэк на Laravel, CMS WordPress. Личный блок Никиты Ив (dllpl). Плагины, библиотеки и многое другое на PHP, JS и Go.',
   // link: '/riyad.jpg',
 })
 </script>
 
 <template>
   <div class="py-5">
-    <div class="sm:grid grid-cols-8 px-6 py-5 sm:py-9 gap-5 container   mx-auto">
+    <div class="sm:grid grid-cols-8 px-6 py-5 sm:py-9 gap-5 container mx-auto">
       <div class="col-span-5  max-w-md">
         <div class="flex justify-between">
           <div>
@@ -20,6 +31,14 @@ defineOgImageComponent('About', {
             </h1>
 
             <div class="my-3 space-x-2 md:space-x-3 pb-10">
+              <NuxtLink
+                to="https://t.me/dllpl"
+                target="_blank"
+                class="px-2 py-1 lg:px-3 lg:py-2 bg-gray-300 text-gray-800 rounded-md dark:bg-slate-700 dark:text-[#F1F2F4]"
+                aria-label="LinkedIn"
+              >
+                <Icon name="fa:telegram" size="1em" />
+              </NuxtLink>
               <NuxtLink
                 to="https://github.com/dllpl"
                 target="_blank"
@@ -43,6 +62,15 @@ defineOgImageComponent('About', {
           {{ aboutPage.description }}
         </h3>
         <p>{{ aboutPage.aboutMe }}</p>
+      </div>
+      <div class="col-span-3">
+        <NuxtImg
+          src="/about.jpg"
+          width="450"
+          height="500"
+          quality="80"
+          class="rounded-md"
+        />
       </div>
     </div>
   </div>
